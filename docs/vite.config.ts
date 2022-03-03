@@ -1,6 +1,9 @@
 import { resolve } from "path";
 import { defineConfig } from "vite";
 import Components from "unplugin-vue-components/vite";
+import { NavbarFix } from "./.vitepress/plugins/navbar";
+import { ContentDocToc } from "./.vitepress/plugins/content-doc-toc";
+import { ContentDocFooter } from "./.vitepress/plugins/content-doc-footer";
 
 export default defineConfig(async () => {
   return {
@@ -17,7 +20,9 @@ export default defineConfig(async () => {
       //   MarkdownTransform(),
       //   ChangeLog(changeLog),
       //   Contributors(contributions),
-      //   NavbarFix(),
+      NavbarFix(),
+      ContentDocToc(),
+      ContentDocFooter(),
 
       // plugins
       Components({

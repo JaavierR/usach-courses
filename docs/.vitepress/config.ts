@@ -8,7 +8,7 @@ const themeConfig = async () => {
 };
 
 const Guide = [
-  { text: "Introduccion", link: "/guide/" },
+  { text: "Introducción", link: "/guide/" },
   { text: "Guidelines", link: "/guidelines" },
 ];
 
@@ -34,7 +34,7 @@ const config = {
 
   title: "Cursos DII USACH",
   description:
-    "Material de los cursos de DSI e IOT del Dpto. de Ingenieria Industrial USACH.",
+    "Material de los cursos de DSI e IOT del Dpto. de Ingeniería Industrial USACH.",
   lang: "es-CL",
 
   themeConfig: {
@@ -52,7 +52,11 @@ const config = {
     nav: [
       {
         text: "DSI",
-        items: [{ text: "Introduccion", items: Guide }],
+        items: [{ text: "Introducción", items: Guide }],
+      },
+      {
+        text: "DSI",
+        items: [{ text: "Introducción", items: Guide }],
       },
     ],
 
@@ -61,7 +65,7 @@ const config = {
       // "/contributing": DefaultSideBar,
       // "/add-ons": DefaultSideBar,
       // "/ecosystem": DefaultSideBar,
-      // "/guidelines": DefaultSideBar,
+      "/guidelines": DSISideBar,
       // "/export-size": DefaultSideBar,
       // "/recent-updated": DefaultSideBar,
     },
