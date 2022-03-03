@@ -7,24 +7,22 @@ const themeConfig = async () => {
   return config;
 };
 
-const Guide = [
-  { text: "Introducción", link: "/guide/" },
+const DSIGuide = [
+  { text: "Introducción", link: "/dsi/" },
   { text: "Guidelines", link: "/guidelines" },
 ];
 
-const Links = [
-  { text: "Add-ons", link: "/add-ons" },
-  { text: "Ecosystem", link: "/ecosystem" },
-  { text: "Export Size", link: "/export-size" },
-  { text: "Recent Updated", link: "/recent-updated" },
-];
+const IOTGuide = [{ text: "Introducción", link: "/iot/" }];
 
 const DSISideBar = [
-  { text: "Empezando", items: Guide },
+  { text: "Empezando", items: DSIGuide },
+  { text: "Bizagi", items: [{ text: "test", link: "/test" }] },
   // { text: "Core Functions", items: CoreCategories },
   // { text: "Add-ons", items: AddonCategories },
   // { text: "Links", items: Links },
 ];
+
+const IOTSideBar = [{ text: "Empezando", items: IOTGuide }];
 
 /**
  * @type {import('vitepress').UserConfig}
@@ -52,22 +50,18 @@ const config = {
     nav: [
       {
         text: "DSI",
-        items: [{ text: "Introducción", items: Guide }],
+        items: [{ text: "Introducción", items: DSIGuide }],
       },
       {
-        text: "DSI",
-        items: [{ text: "Introducción", items: Guide }],
+        text: "IOT",
+        items: [{ text: "Introducción", items: IOTGuide }],
       },
     ],
 
     sidebar: {
-      "/guide/": DSISideBar,
-      // "/contributing": DefaultSideBar,
-      // "/add-ons": DefaultSideBar,
-      // "/ecosystem": DefaultSideBar,
+      "/dsi/": DSISideBar,
       "/guidelines": DSISideBar,
-      // "/export-size": DefaultSideBar,
-      // "/recent-updated": DefaultSideBar,
+      "/iot/": IOTSideBar,
     },
   },
   head: [

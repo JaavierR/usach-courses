@@ -33,7 +33,7 @@ export function ContentDocToc(): Plugin {
                 <template>
                   <div class="VPContentDocOutline" ref="container">
                     <div class="outline-marker" ref="marker" />
-                    <div class="outline-title">En esta pagina</div>
+                    <div class="outline-title">En esta página</div>
                     <nav aria-labelledby="doc-outline-aria-label">
                       <span id="doc-outline-aria-label" class="visually-hidden"
                         >Table of Contents for current page</span
