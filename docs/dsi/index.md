@@ -4,7 +4,7 @@ La siguiente es una guía de los temas que se cubren a lo largo de la asignatura
 
 > 🚧 Actualmente el sitio se encuentra bajo construcción **por lo que se añadirá mas contenido conforme avancen las semanas**.
 
-## Que veremos
+## Contenidos
 
 La asignatura se divide en tres grandes unidades las cuales están enfocadas en poder hacer uso de las herramientas necesarias para la administración y evaluación de proyectos tecnológicos.
 
@@ -15,4 +15,4 @@ La asignatura se divide en tres grandes unidades las cuales están enfocadas en 
    - Modelado de base de datos con [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
    - Consultas SQL a la base de datos
 3. Desarrollo:
-   - Implementación del sistema con lenguajes de programación
+   - Implementación de un sistema web con lenguajes de programación
