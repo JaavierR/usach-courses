@@ -16,10 +16,16 @@ const IOTGuide = [{ text: "Introducción", link: "/iot/" }];
 
 const DSISideBar = [
   { text: "Empezando", items: DSIGuide },
-  { text: "Bizagi", items: [{ text: "test", link: "/test" }] },
-  // { text: "Core Functions", items: CoreCategories },
-  // { text: "Add-ons", items: AddonCategories },
-  // { text: "Links", items: Links },
+  { text: "Bizagi", items: [{ text: "Introducción", link: "/dsi/bizagi/" }] },
+  { text: "UML", items: [{ text: "Introducción", link: "/dsi/uml/" }] },
+  {
+    text: "Bases de datos",
+    items: [{ text: "Introducción", link: "/dsi/bases-de-datos/" }],
+  },
+  {
+    text: "Desarrollo web",
+    items: [{ text: "Introducción", link: "/dsi/desarrollo-web/" }],
+  },
 ];
 
 const IOTSideBar = [{ text: "Empezando", items: IOTGuide }];
@@ -49,12 +55,11 @@ const config = {
 
     nav: [
       {
-        text: "DSI",
-        items: [{ text: "Introducción", items: DSIGuide }],
-      },
-      {
-        text: "IOT",
-        items: [{ text: "Introducción", items: IOTGuide }],
+        text: "Cursos",
+        items: [
+          { text: "DSI", link: "/dsi/" },
+          { text: "IOT", link: "/iot/" },
+        ],
       },
     ],
 
