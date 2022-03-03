@@ -1,0 +1,19 @@
+{
+  "name": "usach-courses",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Documentation for the DSI and IOT courses of USACH",
+  "author": "Javier Reyes",
+  "devDependencies": {
+    "@vue/theme": "^1.0.1",
+    "unplugin-vue-components": "^0.17.21",
+    "vite": "^2.8.6",
+    "vitepress": "^0.22.3",
+    "vue": "^3.2.31"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  }
+}
