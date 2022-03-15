@@ -47,8 +47,8 @@ const config = {
     docsDir: "docs",
 
     algolia: {
-      apiKey: "a99ef8de1b2b27949975ce96642149c6",
-      indexName: "vueuse",
+      apiKey: "ad993689dc68876bd332744d5f1d1835",
+      indexName: "usach-courses",
     },
 
     socialLinks: [{ icon: "github", link: "https://github.com/JaavierR" }],
