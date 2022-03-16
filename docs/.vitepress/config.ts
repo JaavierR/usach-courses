@@ -9,7 +9,7 @@ const themeConfig = async () => {
 
 const DSIGuide = [
   { text: "Introducción", link: "/dsi/" },
-  { text: "Guidelines", link: "/guidelines" },
+  { text: "Evaluaciones", link: "/dsi/evaluaciones" },
 ];
 
 const IOTGuide = [{ text: "Introducción", link: "/iot/" }];
@@ -51,7 +51,9 @@ const config = {
       indexName: "usach-courses",
     },
 
-    socialLinks: [{ icon: "github", link: "https://github.com/JaavierR" }],
+    socialLinks: [
+      { icon: "github", link: "https://github.com/JaavierR/usach-courses" },
+    ],
 
     nav: [
       {
