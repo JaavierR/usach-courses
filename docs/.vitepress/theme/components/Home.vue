@@ -1,24 +1,26 @@
 <template>
-  <section id="hero">
-    <h1 class="tagline">Cursos <span class="tagline--bold">DII</span></h1>
-  </section>
+  <ClientOnly>
+    <section id="hero">
+      <h1 class="tagline">Cursos <span class="tagline--bold">DII</span></h1>
+    </section>
 
-  <section id="highlights" class="vt-box-container">
-    <a class="vt-box course-link" href="/dsi/">
-      <h2>DSI</h2>
-      <p>
-        Aqu&iacute; puedes encontrar el material relacionado al curso de
-        Dise&ntilde;o de Sistemas de Informaci&oacute;n.
-      </p>
-    </a>
-    <a class="vt-box course-link" href="/iot/">
-      <h2>IOT</h2>
-      <p>
-        Aqu&iacute; puedes encontrar el material relacionado al curso de
-        Internet de las cosas.
-      </p>
-    </a>
-  </section>
+    <section id="highlights" class="vt-box-container">
+      <a class="vt-box course-link" href="/dsi/">
+        <h2>DSI</h2>
+        <p>
+          Aqu&iacute; puedes encontrar el material relacionado al curso de
+          Dise&ntilde;o de Sistemas de Informaci&oacute;n.
+        </p>
+      </a>
+      <a class="vt-box course-link" href="/iot/">
+        <h2>IOT</h2>
+        <p>
+          Aqu&iacute; puedes encontrar el material relacionado al curso de
+          Internet de las cosas.
+        </p>
+      </a>
+    </section>
+  </ClientOnly>
 </template>
 
 <style scoped>
