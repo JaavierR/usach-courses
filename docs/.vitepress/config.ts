@@ -10,6 +10,7 @@ const themeConfig = async () => {
 const DSIGuide = [
   { text: "Introducción", link: "/dsi/" },
   { text: "Evaluaciones", link: "/dsi/evaluaciones" },
+  { text: "Recursos", link: "/dsi/recursos" },
 ];
 
 const IOTGuide = [{ text: "Introducción", link: "/iot/" }];

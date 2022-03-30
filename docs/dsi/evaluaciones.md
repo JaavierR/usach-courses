@@ -9,14 +9,19 @@ El curso se divide en cátedra y laboratorio, en el cual para poder eximirse se 
 
 La nota final de la cátedra se compone de tres evaluaciones distintas, las cuales se describen a continuación:
 
-1. PEP 1: Modelamiento de Bizagi -> 33,3%
-2. PEP 2: Modelamiento de diagrama UML - Caso de usos -> 33,3%
-3. PEP 3: Modelamiento y consultas de base de datos -> 33,3%
+| Evaluación    | Fecha      | Contenido              | Porcentaje |
+| ------------- | ---------- | ---------------------- | ---------- |
+| PEP 1         | Abril - 21 | Modelamiento de Bizagi | 27.33%     |
+| PEP 2         | Mayo - 19  | UML - Caso de usos     | 27.33%     |
+| PEP 3         | Junio - 20 | Base de datos          | 27.33%     |
+| Trabajo final | Julio - 4  | Trabajo                | 30%        |
 
 ## Laboratorio
 
+> 🚧 Porcentajes y fechas por confirmar.
+
 La nota final del laboratorio también se compone de tres evaluaciones, de los cuales sus porcentajes se describen a continuación:
 
-1. Trabajo 1 -> 33,3%
-2. Trabajo 2 -> 33,3%
-3. Trabajo 3 -> 33,3%
+1. Trabajo 1 -> x%
+2. Trabajo 2 -> x%
+3. Trabajo 3 -> x%
