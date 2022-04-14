@@ -6,10 +6,10 @@
   "author": "Javier Reyes",
   "devDependencies": {
     "@vue/theme": "1.0.1",
-    "unplugin-vue-components": "0.18.5",
-    "vite": "2.8.6",
+    "unplugin-vue-components": "0.19.2",
+    "vite": "2.9.4",
     "vitepress": "0.22.3",
-    "vue": "3.2.31"
+    "vue": "3.2.32"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
