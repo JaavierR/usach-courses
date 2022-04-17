@@ -17,7 +17,7 @@ const IOTGuide = [{ text: "Introducción", link: "/iot/" }];
 
 const DSISideBar = [
   { text: "Empezando", items: DSIGuide },
-  { text: "Bizagi", items: [{ text: "Introducción", link: "/dsi/bizagi/" }] },
+  { text: "BPMN", items: [{ text: "Que es BPMN?", link: "/dsi/bpmn" }] },
   { text: "UML", items: [{ text: "Introducción", link: "/dsi/uml/" }] },
   {
     text: "Bases de datos",
