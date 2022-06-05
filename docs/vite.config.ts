@@ -1,9 +1,8 @@
-import { resolve } from "path";
 import { defineConfig } from "vite";
 import Components from "unplugin-vue-components/vite";
-import { NavbarFix } from "./.vitepress/plugins/navbar";
-import { ContentDocToc } from "./.vitepress/plugins/content-doc-toc";
-import { ContentDocFooter } from "./.vitepress/plugins/content-doc-footer";
+import { NotFound } from "./.vitepress/plugins/not-found";
+import { DocFooter } from "./.vitepress/plugins/doc-footer";
+import { DocAside } from "./.vitepress/plugins/doc-aside";
 
 export default defineConfig(async () => {
   return {
@@ -11,22 +10,15 @@ export default defineConfig(async () => {
       hmr: {
         overlay: false,
       },
-      fs: {
-        allow: [resolve(__dirname, "..")],
-      },
     },
     plugins: [
-      // custom
-      //   MarkdownTransform(),
-      //   ChangeLog(changeLog),
-      //   Contributors(contributions),
-      // NavbarFix(),
-      // ContentDocToc(),
-      // ContentDocFooter(),
+      NotFound(),
+      DocFooter(),
+      DocAside(),
 
       // plugins
       Components({
-        dirs: resolve(__dirname, ".vitepress/theme/components"),
+        dirs: "./.vitepress/components",
         include: [/\.vue$/, /\.vue\?vue/, /\.md$/],
         dts: "./.vitepress/components.d.ts",
         transformer: "vue3",
