@@ -16,5 +16,3 @@ hero:
           text: IOT
           link: /iot/
 ---
-
-<Home />
