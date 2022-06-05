@@ -54,7 +54,7 @@ export default defineConfig(async () => {
     ],
 
     optimizeDeps: {
-      exclude: ["vue-demi", "@vue/theme"],
+      exclude: ["vue-demi"],
     },
   };
 });
