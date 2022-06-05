@@ -9,7 +9,7 @@ const IOTGuide = [{ text: "Introducción", link: "/iot/" }];
 const DSISideBar = [
   { text: "Empezando", items: DSIGuide },
   { text: "BPMN", items: [{ text: "Que es BPMN?", link: "/dsi/bpmn" }] },
-  { text: "UML", items: [{ text: "Introducción", link: "/dsi/uml/" }] },
+  { text: "UML", items: [{ text: "Introducción", link: "/dsi/uml" }] },
   {
     text: "Bases de datos",
     items: [{ text: "Introducción", link: "/dsi/bases-de-datos/" }],
