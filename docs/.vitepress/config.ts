@@ -1,12 +1,3 @@
-// @ts-expect-error missing type
-import base from "@vue/theme/config";
-
-const themeConfig = async () => {
-  const config = await base();
-  // config.markdown.highlight = await highlight();
-  return config;
-};
-
 const DSIGuide = [
   { text: "Introducción", link: "/dsi/" },
   { text: "Evaluaciones", link: "/dsi/evaluaciones" },
@@ -35,8 +26,6 @@ const IOTSideBar = [{ text: "Empezando", items: IOTGuide }];
  * @type {import('vitepress').UserConfig}
  */
 const config = {
-  extends: themeConfig,
-
   title: "Cursos DII USACH",
   description:
     "Material de los cursos de DSI e IOT del Dpto. de Ingeniería Industrial USACH.",

@@ -20,9 +20,9 @@ export default defineConfig(async () => {
       //   MarkdownTransform(),
       //   ChangeLog(changeLog),
       //   Contributors(contributions),
-      NavbarFix(),
-      ContentDocToc(),
-      ContentDocFooter(),
+      // NavbarFix(),
+      // ContentDocToc(),
+      // ContentDocFooter(),
 
       // plugins
       Components({
