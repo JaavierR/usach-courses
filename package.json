@@ -6,9 +6,9 @@
   "author": "Javier Reyes",
   "devDependencies": {
     "unplugin-vue-components": "0.19.6",
-    "vite": "2.9.9",
-    "vitepress": "1.0.0-alpha.1",
-    "vue": "3.2.36"
+    "vite": "2.9.12",
+    "vitepress": "1.0.0-alpha.2",
+    "vue": "3.2.37"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
