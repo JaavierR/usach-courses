@@ -5,9 +5,9 @@
   "description": "Documentation for the DSI and IOT courses of USACH",
   "author": "Javier Reyes",
   "devDependencies": {
-    "unplugin-vue-components": "0.19.6",
+    "unplugin-vue-components": "0.20.1",
     "vite": "2.9.12",
-    "vitepress": "1.0.0-alpha.2",
+    "vitepress": "1.0.0-alpha.4",
     "vue": "3.2.37"
   },
   "scripts": {
