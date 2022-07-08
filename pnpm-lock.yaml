@@ -1,14 +1,14 @@
 lockfileVersion: 5.3
 
 specifiers:
-  unplugin-vue-components: 0.20.1
-  vite: 2.9.12
+  unplugin-vue-components: 0.21.1
+  vite: 2.9.14
   vitepress: 1.0.0-alpha.4
   vue: 3.2.37
 
 devDependencies:
-  unplugin-vue-components: 0.20.1_vite@2.9.12+vue@3.2.37
-  vite: 2.9.12
+  unplugin-vue-components: 0.21.1_vite@2.9.14+vue@3.2.37
+  vite: 2.9.14
   vitepress: 1.0.0-alpha.4
   vue: 3.2.37
 
@@ -195,14 +195,14 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@vitejs/plugin-vue/2.3.3_vite@2.9.12+vue@3.2.37:
+  /@vitejs/plugin-vue/2.3.3_vite@2.9.14+vue@3.2.37:
     resolution: {integrity: sha512-SmQLDyhz+6lGJhPELsBdzXGc+AcaT8stgkbiTFGpXPe8Tl1tJaBw1A6pxDqDuRsVkD8uscrkx3hA7QDOoKYtyw==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       vite: ^2.5.10
       vue: ^3.2.25
     dependencies:
-      vite: 2.9.12
+      vite: 2.9.14
       vue: 3.2.37
     dev: true
 
@@ -805,15 +805,6 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /resolve/1.22.0:
-    resolution: {integrity: sha512-Hhtrw0nLeSrFQ7phPp4OOcVjLPIeMnRlr5mcnVuMe7M/7eBn98A3hmFRLoFo3DLZkivSYwhRUJTyPyWAk56WLw==}
-    hasBin: true
-    dependencies:
-      is-core-module: 2.9.0
-      path-parse: 1.0.7
-      supports-preserve-symlinks-flag: 1.0.0
-    dev: true
-
   /resolve/1.22.1:
     resolution: {integrity: sha512-nBpuuYuY5jFsli/JIs1oldw6fOQCBioohqWZg/2hiaOybXOft4lonv85uDOKXdf8rhyK159cxU5cDcK/NKk8zw==}
     hasBin: true
@@ -881,8 +872,8 @@ packages:
       is-number: 7.0.0
     dev: true
 
-  /unplugin-vue-components/0.20.1_vite@2.9.12+vue@3.2.37:
-    resolution: {integrity: sha512-I70rKUvnJXxBvvTvKhjMV6jXh48BdiUNn2jcQiTdZjqBA3Xgkze31tdc4KBX46yryIy0y6pVaZ9gVBNPrF785g==}
+  /unplugin-vue-components/0.21.1_vite@2.9.14+vue@3.2.37:
+    resolution: {integrity: sha512-8MhIT323q1EUu7rz6NfQeiHqDrZKtygy6s9jzcQAuuZUM2T38SHlPT5YJjBOZmM0Bau6YuNTKfBBX4iHzeusaQ==}
     engines: {node: '>=14'}
     peerDependencies:
       '@babel/parser': ^7.15.8
@@ -900,7 +891,7 @@ packages:
       magic-string: 0.26.2
       minimatch: 5.1.0
       resolve: 1.22.1
-      unplugin: 0.7.0_vite@2.9.12
+      unplugin: 0.7.1_vite@2.9.14
       vue: 3.2.37
     transitivePeerDependencies:
       - esbuild
@@ -910,12 +901,12 @@ packages:
       - webpack
     dev: true
 
-  /unplugin/0.7.0_vite@2.9.12:
-    resolution: {integrity: sha512-OsiFrgybmqm5bGuaodvbLYhqUrvGuRHRMZDhddKEXTDbuQ1x+hR7M1WpQguXj03whVYjEYChhFo738cZH5RNig==}
+  /unplugin/0.7.1_vite@2.9.14:
+    resolution: {integrity: sha512-Z6hNDXDNh9aimMkPU1mEjtk+2ova8gh0y7rJeJdGH1vWZOHwF2lLQiQ/R97rv9ymmzEQXsR2fyMet72T8jy6ew==}
     peerDependencies:
       esbuild: '>=0.13'
       rollup: ^2.50.0
-      vite: ^2.3.0
+      vite: ^2.3.0 || ^3.0.0-0
       webpack: 4 || 5
     peerDependenciesMeta:
       esbuild:
@@ -929,13 +920,13 @@ packages:
     dependencies:
       acorn: 8.7.1
       chokidar: 3.5.3
-      vite: 2.9.12
+      vite: 2.9.14
       webpack-sources: 3.2.3
-      webpack-virtual-modules: 0.4.3
+      webpack-virtual-modules: 0.4.4
     dev: true
 
-  /vite/2.9.12:
-    resolution: {integrity: sha512-suxC36dQo9Rq1qMB2qiRorNJtJAdxguu5TMvBHOc/F370KvqAe9t48vYp+/TbPKRNrMh/J55tOUmkuIqstZaew==}
+  /vite/2.9.14:
+    resolution: {integrity: sha512-P/UCjSpSMcE54r4mPak55hWAZPlyfS369svib/gpmz8/01L822lMPOJ/RYW6tLCe1RPvMvOsJ17erf55bKp4Hw==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
@@ -952,7 +943,7 @@ packages:
     dependencies:
       esbuild: 0.14.42
       postcss: 8.4.14
-      resolve: 1.22.0
+      resolve: 1.22.1
       rollup: 2.75.5
     optionalDependencies:
       fsevents: 2.3.2
@@ -965,12 +956,12 @@ packages:
     dependencies:
       '@docsearch/css': 3.1.0
       '@docsearch/js': 3.1.0
-      '@vitejs/plugin-vue': 2.3.3_vite@2.9.12+vue@3.2.37
+      '@vitejs/plugin-vue': 2.3.3_vite@2.9.14+vue@3.2.37
       '@vue/devtools-api': 6.1.4
       '@vueuse/core': 8.6.0_vue@3.2.37
       body-scroll-lock: 4.0.0-beta.0
       shiki: 0.10.1
-      vite: 2.9.12
+      vite: 2.9.14
       vue: 3.2.37
     transitivePeerDependencies:
       - '@types/react'
@@ -1020,6 +1011,6 @@ packages:
     engines: {node: '>=10.13.0'}
     dev: true
 
-  /webpack-virtual-modules/0.4.3:
-    resolution: {integrity: sha512-5NUqC2JquIL2pBAAo/VfBP6KuGkHIZQXW/lNKupLPfhViwh8wNsu0BObtl09yuKZszeEUfbXz8xhrHvSG16Nqw==}
+  /webpack-virtual-modules/0.4.4:
+    resolution: {integrity: sha512-h9atBP/bsZohWpHnr+2sic8Iecb60GxftXsWNLLLSqewgIsGzByd2gcIID4nXcG+3tNe4GQG3dLcff3kXupdRA==}
     dev: true
