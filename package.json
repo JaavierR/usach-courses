@@ -6,7 +6,7 @@
   "author": "Javier Reyes",
   "devDependencies": {
     "unplugin-vue-components": "0.20.1",
-    "vite": "2.9.12",
+    "vite": "4.5.0",
     "vitepress": "1.0.0-alpha.4",
     "vue": "3.2.37"
   },
